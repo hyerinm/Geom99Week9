@@ -11,14 +11,14 @@
         crossorigin=""></script>
     
         <style>
-            #mapid { height: 500px; }
+            #mapid { height: 100%; }
         </style>
     </head>
     <body>
         <div id="mapid"></div>
 
         <script>
-        var mymap = L.map('mapid').setView([51.505, -85.3232], 13); 
+        var mymap = L.map('mapid').setView([43.64268263934401, -79.3868207673653], 13); 
 
         L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
             attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
