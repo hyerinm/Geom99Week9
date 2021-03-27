@@ -16,8 +16,9 @@
     </head>
     <body>
         <div id="mapid"></div>
+
         <script>
-        var mymap = L.map('mapid').setView([51.505, -0.09], 13); 
+        var mymap = L.map('mapid').setView([51.505, -85.3232], 13); 
 
         L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
             attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -25,7 +26,7 @@
             id: 'mapbox/streets-v11',
             tileSize: 512,
             zoomOffset: -1,
-            accessToken: 'your.mapbox.access.token'
+            accessToken: 'pk.eyJ1IjoiaG11biIsImEiOiJja21zYmJvMjEwZzNtMm9wbjNtdGhiNXEwIn0.-2BA4WAkozs9LFgBsZ1XVw'
         }).addTo(mymap);
         </script>
     </body>
